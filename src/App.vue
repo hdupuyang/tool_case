@@ -65,8 +65,8 @@
             <mu-list-item button slot="nested" to="/resize">
               <mu-list-item-title>Resize</mu-list-item-title>
             </mu-list-item>
-            <mu-list-item button slot="nested">
-              <mu-list-item-title>List Item 2</mu-list-item-title>
+            <mu-list-item button slot="nested" to="/qrcode">
+              <mu-list-item-title>二维码</mu-list-item-title>
             </mu-list-item>
             <mu-list-item button slot="nested">
               <mu-list-item-title>List Item 3</mu-list-item-title>

@@ -3,5 +3,6 @@ module.exports = {
         open: true, //自动打开浏览器
         port: 8878
     },
-    lintOnSave: false
+    lintOnSave: false,
+    
 }

@@ -18,17 +18,22 @@ const routes = [
   {
     path: '/resize',
     name: 'Resize',
-    component: () => import(/* webpackChunkName: "resize" */'../components/Resize.vue')
+    component: () => import(/* webpackChunkName: "resize" */'../views/pages/Resize.vue')
   },
   {
     path: '/base64',
     name: 'Base64',
-    component: () => import(/* webpackChunkName: "resize" */'../components/Base64.vue')
+    component: () => import(/* webpackChunkName: "resize" */'../views/pages/Base64.vue')
   },
   {
     path: '/htmlminify',
     name: 'Htmlminify',
-    component: () => import(/* webpackChunkName: "resize" */'../components/Htmlminify.vue')
+    component: () => import(/* webpackChunkName: "resize" */'../views/pages/Htmlminify.vue')
+  },
+  {
+    path: '/qrcode',
+    name: 'QRCode',
+    component: () => import(/* webpackChunkName: "resize" */'../views/pages/qrcode.vue')
   },
 ]
 
